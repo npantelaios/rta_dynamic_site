@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <link rel="stylesheet" href="../css/html.css">
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="/DataTables/datatables.css"> 
+      <script type="text/javascript" charset="utf8" src="/DataTables/datatables.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.1.2/papaparse.js"></script>
+  </head>
+
+  <body>
+    <div class="mybox">
+      <a href="../index.html">Home</a>
+    </div>
+    <div class="mybox">
+      <a href="a_button.html">Top100</a>
+    </div>
+    <div class="mybox">
+      <a href="b_button.html">Top100-S15-SL1</a>
+    </div>
+
+    <div id="wrapper">
+      <h1>Top 100 Players - Season 15 - Special League 1 (20* sum)</h1>
+    </div> 
+
+    <script>
+        function arrayToTable(tableData) {
+            var table = $('<table id="mytablee" class="display"><thead><tr><th><span>#</span></th><th><span>server_id</span></th><th><span>country</span></th><th><span>wizard_name</span></th><th><span>rtpvp_score</span></th><th><span>win_count</span></th><th><span>lose_count</span></th><th><span>draw_count</span></th><th><span>rank</span></th><th><span>total_battles</span></th><th><span>win-perc</span></th></tr></thead></table>');
+            $(tableData).each(function (i, rowData) {
+              if (i>0 & i<=100){
+              var row = $('<tr></tr>');
+                $(rowData).each(function (j, cellData) {
+                    row.append($('<td>'+cellData+'</td>'));
+                });
+                table.append(row);
+              }
+            });
+            return table;
+        }
+        $.ajax({
+            type: "GET",
+            url: "../data/top100.csv",
+            success: function (data) {
+                $('#wrapper').append(arrayToTable(Papa.parse(data).data));
+                $('#mytablee').DataTable();
+            }
+        });
+    </script>
+
+  </body>
+
+</html>
