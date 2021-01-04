@@ -2,43 +2,43 @@
 <html lang="en">
   <head>
       <link rel="stylesheet" href="../css/html.css">
-      <script type="text/javascript" src="../jquery/jquery-3.5.1.min.js"></script>
-      <script type="text/javascript" src="../jquery/jquery.tablesorter.min.js"></script> 
-      <!-- <script src="../js/sorttable.js"></script> -->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.1.2/papaparse.js"></script>  
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="/DataTables/datatables.css"> 
+      <script type="text/javascript" charset="utf8" src="/DataTables/datatables.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.1.2/papaparse.js"></script>
   </head>
 
   <body>
-
-    <!-- <script>
-      $(document).ready( function(){
-          $('#keywords').tablesorter(); 
-          console.log("tablesorter page a");
-      });
-    </script> -->
-
     <div class="mybox">
       <a href="../index.html">Home</a>
     </div>
     <div class="mybox">
-      <a href="a_button.html">Top100</a>
+      <a href="a_button.html">Monsters-S15-SL1</a>
     </div>
     <div class="mybox">
-      <a href="b_button.html">top200</a>
+      <a href="b_button.html">Top100-S15-SL1</a>
     </div>
 
     <div id="wrapper">
-      <h1>Sortable Table of Search Queries Sortable Table of Search Queries Sortable Table of Search Queries Sortable Table of Search Queries</h1>
+      <h1>Top Monsters - Season 15 - Special League 1 (20* sum)</h1>
     </div> 
 
-    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> -->
     <script>
-        function arrayToTable(tableData) {
-            // var table = $('<table class="sortablee"><tr><th>a</th><th>b</th><th onclick="sortTable(2)">c</th><th>a</th><th>b</th><th>c</th><th>a</th><th>b</th><th>c</th><th>a</th><th>b</th></tr></table>');
-            // var table = $('<table id="keywords" cellspacing="0" cellpadding="0" class="tablesorter tablesorter-default" role="grid"><thead><tr><th><span>#</span></th><th><span>server_id</span></th><th><span>country</span></th><th><span>wizard_name</span></th><th><span>rtpvp_score</span></th><th><span>win_count</span></th><th><span>lose_count</span></th><th><span>draw_count</span></th><th><span>rank</span></th><th><span>total_battles</span></th><th><span>win-perc</span></th></tr></thead></table>');
-            var table = $('<table id="keywords"><thead><tr><th><span>#</span></th><th><span>server_id</span></th><th><span>country</span></th><th><span>wizard_name</span></th><th><span>rtpvp_score</span></th><th><span>win_count</span></th><th><span>lose_count</span></th><th><span>draw_count</span></th><th><span>rank</span></th><th><span>total_battles</span></th><th><span>win-perc</span></th></tr></thead></table>');
+        function getLength(tableData) {
+            var length_div = $('<div id="length" class="display" style="font-size: 35px; font-family:\'Helvetica Neue\';" ></div>');
+            var battle_sum = 0;
             $(tableData).each(function (i, rowData) {
-              if (i>0){
+              if (i>0 & i<=723){
+                battle_sum += parseInt(rowData[1]);
+              }
+            });
+            length_div.text("Total battles = " + Math.ceil(battle_sum/10));
+            return length_div;
+        }
+        function arrayToTable(tableData) {
+            var table = $('<table id="mytablee" class="display"><thead><tr><th><span>monster_name</span></th><th><span>pick</span></th><th><span>pick-perc</span></th><th><span>win</span></th><th><span>win-perc</span></th><th><span>leader</span></th><th><span>leader-perc</span></th><th><span>first</span></th><th><span>first-perc</span></th><th><span>last</span></th><th><span>last-perc</span></th><th><span>banned</span></th><th><span>banned-perc</span></th><th><span>1p-win</span></th><th><span>5p-win</span></th><th><span>1p-win-perc</span></th><th><span>5p-win-perc</span></th></tr></thead></table>');
+            $(tableData).each(function (i, rowData) {
+              if (i>0 & i<=723){
               var row = $('<tr></tr>');
                 $(rowData).each(function (j, cellData) {
                     row.append($('<td>'+cellData+'</td>'));
@@ -48,124 +48,17 @@
             });
             return table;
         }
-        
-        // var table = arrayToTable(Papa.parse(data).data)
-        // table = $('<thead></thead>').prependTo(table)
-        // // .append($('table.sortable tr:first'));
-
-        console.log("page a")
         $.ajax({
             type: "GET",
-            url: "../data/top100.csv",
+            url: "../data/data.csv",
             success: function (data) {
-                var mytable = arrayToTable(Papa.parse(data).data)
-                $('#wrapper').append(mytable);
-                mytable.tablesorter();
-                console.log("ran?")
-                // $('body').append(arrayToTable(Papa.parse(data).data));
+                $('body').append(getLength(Papa.parse(data).data));
+                $('#wrapper').append(arrayToTable(Papa.parse(data).data));
+                $('#mytablee').DataTable();
+
             }
         });
-        // var newTable = $('#keywords').tablesorter();
-        // $('#wrapper').append(newTable);
-        // console.log("tablesorter page a");
     </script>
-
-    <!-- <script>
-    const getCellValue = (tr, idx) => tr.children[idx].innerText || tr.children[idx].textContent;
-
-    const comparer = (idx, asc) => (a, b) => ((v1, v2) => 
-        v1 !== '' && v2 !== '' && !isNaN(v1) && !isNaN(v2) ? v1 - v2 : v1.toString().localeCompare(v2)
-        )(getCellValue(asc ? a : b, idx), getCellValue(asc ? b : a, idx));
-
-    // do the work...
-    document.querySelectorAll('th').forEach(th => th.addEventListener('click', (() => {
-        const table = th.closest('table');
-        Array.from(table.querySelectorAll('tr:nth-child(n+2)'))
-            .sort(comparer(Array.from(th.parentNode.children).indexOf(th), this.asc = !this.asc))
-            .forEach(tr => table.appendChild(tr) );
-    })));
-    </script> -->
-    
-    <!-- <script>
-    function sortTable(n) {
-
-      var row = document.getElementsByTagName('tbody')[0];
-      function deleteRow () {
-          row.parentNode.removeChild(row);
-      };
-
-      var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
-      table = document.getElementByClassName("sortablee");
-
-      switching = true;
-      // Set the sorting direction to ascending:
-      dir = "asc";
-      /* Make a loop that will continue until
-      no switching has been done: */
-      while (switching) {
-        // Start by saying: no switching is done:
-        switching = false;
-        rows = table.rows;
-        /* Loop through all table rows (except the
-        first, which contains table headers): */
-        for (i = 1; i < (rows.length - 1); i++) {
-          // Start by saying there should be no switching:
-          shouldSwitch = false;
-          /* Get the two elements you want to compare,
-          one from current row and one from the next: */
-          x = rows[i].getElementsByTagName("TD")[n];
-          y = rows[i + 1].getElementsByTagName("TD")[n];
-          /* Check if the two rows should switch place,
-          based on the direction, asc or desc: */
-          if (dir == "asc") {
-            if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
-              // If so, mark as a switch and break the loop:
-              shouldSwitch = true;
-              break;
-            }
-          } else if (dir == "desc") {
-            if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
-              // If so, mark as a switch and break the loop:
-              shouldSwitch = true;
-              break;
-            }
-          }
-        }
-        if (shouldSwitch) {
-          /* If a switch has been marked, make the switch
-          and mark that a switch has been done: */
-          rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
-          switching = true;
-          // Each time a switch is done, increase this count by 1:
-          switchcount ++;
-        } else {
-          /* If no switching has been done AND the direction is "asc",
-          set the direction to "desc" and run the while loop again. */
-          if (switchcount == 0 && dir == "asc") {
-            dir = "desc";
-            switching = true;
-          }
-        }
-      }
-    }
-    </script> -->
-
-    <!-- <script>
-      // Find a <table> element with id="myTable":
-      var table = document.getElementByClassName("sortable");
-      console.log(table.rows);
-      // Create an empty <thead> element and add it to the table:
-      var header = table.createTHead();
-
-      // Create an empty <tr> element and add it to the first position of <thead>:
-      var row = header.insertRow(0);    
-
-      // Insert a new cell (<td>) at the first position of the "new" <tr> element:
-      var cell = row.insertCell(0);
-
-      // Add some bold text in the new cell:
-      cell.innerHTML = "<b>This is a table header</b>";
-    </script> -->
 
   </body>
 
