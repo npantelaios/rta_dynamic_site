@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-      <link rel="stylesheet" href="../css/html.css">
+      <link rel="stylesheet" href="../../css/html.css">
       <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
       <link rel="stylesheet" type="text/css" href="/DataTables/datatables.css"> 
       <script type="text/javascript" charset="utf8" src="/DataTables/datatables.js"></script>
@@ -10,20 +10,23 @@
 
   <body>
     <div class="mybox" style="position:absolute; left:10px; top:5px;">
-      <a href="../index.html">Home</a>
-      </div>
-      <div class="mybox" style="position:absolute; left:50px; top:5px;">
-          <a href="a_button.html">Monsters-S15-SL1</a>
-      </div>
-      <div class="mybox" style="position:absolute; left:145px; top:5px;">
-          <a href="b_button.html">Top100-S15-SL1</a>
+        <a href="../../index.html">Home</a>
+    </div>
+    <div class="mybox" style="position:absolute; left:150px; top:50px;">
+        <a href="main.html">MAIN</a>
+    </div>
+    <div class="mybox" style="position:absolute; left:200px; top:50px;">
+        <a href="monsters.html">Monsters-S15-SL2</a>
         </div>
-      <div class="mybox" style="position:absolute; right:10px; top:5px;">
-        <a href="b_button.html">Serpolita</a>
-      </div>
+    <div class="mybox" style="position:absolute; left:300px; top:50px;">
+    <a href="top100.html">Top100-S15-SL2</a>
+    </div>
+    <div class="mybox" style="position:absolute; right:10px; top:5px;">
+        <a href="users/users.html">USERS</a>
+    </div>
 
     <div id="wrapper">
-      <h1>Top Monsters - Season 15 - Special League 1 (20* sum)</h1>
+      <h1>Top Monsters - Season 15 - Special League 2 (Normal)</h1>
     </div> 
 
     <script>
@@ -31,7 +34,7 @@
             var length_div = $('<div id="length" class="display" style="font-size: 35px; font-family:\'Helvetica Neue\';" ></div>');
             var battle_sum = 0;
             $(tableData).each(function (i, rowData) {
-              if (i>0 & i<=723){
+              if (i>0 & i<=(tableData.length-2)){
                 battle_sum += parseInt(rowData[1]);
               }
             });
@@ -41,7 +44,7 @@
         function arrayToTable(tableData) {
             var table = $('<table id="mytablee" class="display"><thead><tr><th><span>monster_name</span></th><th><span>pick</span></th><th><span>pick-perc</span></th><th><span>win</span></th><th><span>win-perc</span></th><th><span>leader</span></th><th><span>leader-perc</span></th><th><span>first</span></th><th><span>first-perc</span></th><th><span>last</span></th><th><span>last-perc</span></th><th><span>banned</span></th><th><span>banned-perc</span></th><th><span>1p-win</span></th><th><span>5p-win</span></th><th><span>1p-win-perc</span></th><th><span>5p-win-perc</span></th></tr></thead></table>');
             $(tableData).each(function (i, rowData) {
-              if (i>0 & i<=723){
+              if (i>0 & i<=(tableData.length-2)){
               var row = $('<tr></tr>');
                 $(rowData).each(function (j, cellData) {
                     row.append($('<td>'+cellData+'</td>'));
@@ -53,7 +56,7 @@
         }
         $.ajax({
             type: "GET",
-            url: "../data/data.csv",
+            url: "../../data/output_s15_sl2/db/monsters_all.csv",
             success: function (data) {
                 $('body').append(getLength(Papa.parse(data).data));
                 $('#wrapper').append(arrayToTable(Papa.parse(data).data));

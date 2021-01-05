@@ -1,0 +1,284 @@
+<head>
+    <link rel="stylesheet" href="../../../css/html.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/DataTables/datatables.css"> 
+    <script type="text/javascript" charset="utf8" src="/DataTables/datatables.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.1.2/papaparse.js"></script>
+</head>
+
+<body>
+  <div class="mybox" style="position:absolute; left:10px; top:5px;">
+    <a href="../../../index.html">Home</a>
+  </div>
+  <div class="mybox" style="position:absolute; left:150px; top:50px;">
+      <a href="../main.html">MAIN</a>
+  </div>
+  <div class="mybox" style="position:absolute; left:200px; top:50px;">
+      <a href="../monsters.html">Monsters-S15-SL2</a>
+      </div>
+  <div class="mybox" style="position:absolute; left:300px; top:50px;">
+  <a href="../top100.html">Top100-S15-SL2</a>
+  </div>
+  <div class="mybox" style="position:absolute; right:10px; top:5px;">
+      <a href="users.html">USERS</a>
+  </div>
+
+
+  <div class="mybox" style="position:absolute; left:100px; top:5px;">
+    <a href="Elmimo.html">Elmimo</a>
+  </div>
+  <div class="mybox" style="position:absolute; left:150px; top:5px;">
+    <a href="Ex|Shizzy.html">Ex|Shizzy</a>
+  </div>
+  <div class="mybox" style="position:absolute; left:200px; top:5px;">
+    <a href="Faintmemory.html">Faintmemory<a>
+  </div>
+  <div class="mybox" style="position:absolute; left:250px; top:5px;">
+    <a href="Howtoplay2.html">Howtoplay2</a>
+  </div>
+  <div class="mybox" style="position:absolute; left:300px; top:5px;">
+    <a href="K1llerWhale.html">K1llerWhale</a>
+  </div>
+  <div class="mybox" style="position:absolute; left:350px; top:5px;">
+    <a href="Obabo.html">Obabo</a>
+  </div>
+  <div class="mybox" style="position:absolute; left:400px; top:5px;">
+    <a href="PinkRoid~.html">PinkRoid~</a>
+  </div>
+  <div class="mybox" style="position:absolute; left:450px; top:5px;">
+    <a href="Raigeki!.html">Raigeki!</a>
+  </div>
+  <div class="mybox" style="position:absolute; left:500px; top:5px;">
+    <a href="Rosith.html">Rosith</a>
+  </div>
+  <div class="mybox" style="position:absolute; left:550px; top:5px;">
+    <a href="secondbaby.html">secondbaby</a>
+  </div>
+  <div class="mybox" style="position:absolute; left:600px; top:5px;">
+    <a href="Seiishizo.html">Seiishizo</a>
+  </div>
+  <div class="mybox" style="position:absolute; left:650px; top:5px;">
+    <a href="TopaV.html">TopaV</a>
+  </div>
+  <div class="mybox" style="position:absolute; left:700px; top:5px;">
+    <a href="Viilipytty.html">Viilipytty</a>
+  </div>
+  <div class="mybox" style="position:absolute; left:750px; top:5px;">
+    <a href="SmileyChinese.html">SmileyChinese</a>
+  </div>
+  <div class="mybox" style="position:absolute; left:800px; top:5px;">
+    <a href="CrossChinese.html">CrossChinese</a>
+  </div>
+  <div class="mybox" style="position:absolute; left:850px; top:5px;">
+    <a href="ChineseBB.html">ChineseBB</a>
+  </div>
+  <div class="mybox" style="position:absolute; left:900px; top:5px;">
+    <a href="Elmimo.html">Elmimo</a>
+  </div>
+  <div class="mybox" style="position:absolute; left:950px; top:5px;">
+    <a href="Elmimo.html">Elmimo</a>
+  </div>
+  <div class="mybox" style="position:absolute; left:1000px; top:5px;">
+    <a href="Elmimo.html">Elmimo</a>
+  </div>
+  <div class="mybox" style="position:absolute; left:1050px; top:5px;">
+    <a href="Elmimo.html">Elmimo</a>
+  </div>
+
+    <div id="wrapper">
+     <h1 class="headerH1" style="margin-top: 30px;"></h1>
+    </div> 
+
+    <script>
+        var path = window.location.pathname;
+        var page = path.split("/").pop().split(".").shift();
+        document.getElementById("wrapper").getElementsByClassName("headerH1")[0].innerHTML = page;
+        function getLength(tableData) {
+            var length_div = $('<div id="length" class="display" style="font-size: 35px; font-family:\'Helvetica Neue\';" ></div>');
+            var battle_sum = 0;
+            $(tableData).each(function (i, rowData) {
+              if (i>0 & i<=(tableData.length-2)){
+                battle_sum += parseInt(rowData[1]);
+              }
+            });
+            length_div.text("Total times = " + Math.ceil(battle_sum/10));
+            return length_div;
+        }
+        function forRanking(tableData) {
+            var table = $('<table id="mytablee" class="display"><thead><tr><th><span>#</span></th><th><span>server_id</span></th><th><span>country</span></th><th><span>wizard_name</span></th><th><span>rtpvp_score</span></th><th><span>win_count</span></th><th><span>lose_count</span></th><th><span>draw_count</span></th><th><span>rank</span></th><th><span>total_battles</span></th><th><span>win-perc</span></th><th><span>timestamp</span></th></tr></thead></table>');
+            $(tableData).each(function (i, rowData) {
+              if (i>0 & i<=(tableData.length-2)){
+              var row = $('<tr></tr>');
+                $(rowData).each(function (j, cellData) {
+                    row.append($('<td>'+cellData+'</td>'));
+                });
+                table.append(row);
+              }
+            });
+            return table;
+        }
+    
+        $.ajax({
+            type: "GET",
+            url: "../../../data/output_s15_sl2/users/"+page+"/general.csv",
+            success: function (data) {
+                // $('body').append(getLength(Papa.parse(data).data));
+                $('#wrapper').append(forRanking(Papa.parse(data).data));
+                $('#mytablee').DataTable();
+
+            }
+        });
+
+        function forMonsters(tableData) {
+            // var table = $('');
+            var firstRow = '';
+            var firstRowStart = '<table id="mytablee2" class="display"><thead><tr>';
+            var firstRowEnd = '</tr></thead></table>';
+            firstRow += firstRowStart;
+            $(tableData).each(function (i, rowData) {
+                if(i==0){
+                    $(rowData).each(function (j, cellData) {
+                        firstRow += ('<th><span>'+cellData+'</span></th>');
+                    })
+                }
+            })
+            firstRow += (firstRowEnd);
+            var table = $(firstRow);
+            $(tableData).each(function (i, rowData) {
+              if (i>0 & i<=(tableData.length-2)){
+              var row = $('<tr></tr>');
+                $(rowData).each(function (j, cellData) {
+                    row.append($('<td>'+cellData+'</td>'));
+                });
+                table.append(row);
+              }
+            });
+            return table;
+        }    
+        $.ajax({
+            type: "GET",
+            url: "../../../data/output_s15_sl2/users/"+page+"/monsters.csv",
+            success: function (data) {
+                // $('body').append(getLength(Papa.parse(data).data));
+                $('#wrapper').append(forMonsters(Papa.parse(data).data));
+                $('#mytablee2').DataTable();
+
+            }
+        }); 
+        
+
+        function forBattles(tableData) {
+            var table = $('<div>T</div');
+            var blackButton = $('<button class="btn-minimize" style="background-color: black">N</button>');
+            table.append(blackButton);
+            $(tableData).each(function (i, rowData) {
+              if (i>0 & i<=(tableData.length-2)){
+                if (i % 25 == 0){
+                  table.append($('<div class="space-filler"></div>'));
+                }
+                var myColor = "black";
+                if(rowData[1] == "True"){
+                    myColor = '#0F0';
+                }
+                else{
+                    myColor = '#F00';
+                }
+                var myButton = $('<button class="btn-minimize" style="background-color: ' + myColor + '">' + rowData[0] + '</button>')
+                var rowDiv = $('<table class="widget-content"  style="display: none; color: black; background-color: white;"></table>');
+
+                rowDiv.append($('<tr><td>'+rowData[21]+'</td><td>'+rowData[22]+'</td></tr>'));
+                rowDiv.append($('<tr><td>----</td><td>----</td></tr>'));
+
+                var row = $('<tr></tr>');
+                for (let j = 2; j < 7; j++) {
+                    k = j
+                    add = 0
+                    // leader
+                    if(rowData[k] == rowData[9+add]){
+                        row.append($('<td style="font-weight: bold;">'+rowData[k]+'</td>'));
+                    }
+                    // banned
+                    else if(rowData[k] == rowData[10+add]){
+                        row.append($('<td style="text-decoration: line-through;">'+rowData[k]+'</td>'));
+                    }
+                    else{
+                        row.append($('<td>'+rowData[k]+'</td>'));
+                    }
+                    k = j + 9
+                    add = 9
+                    // leader
+                    if(rowData[k] == rowData[9+add]){
+                        row.append($('<td style="font-weight: bold;">'+rowData[k]+'</td>'));
+                    }
+                    // banned
+                    else if(rowData[k] == rowData[10+add]){
+                        row.append($('<td style="text-decoration: line-through;">'+rowData[k]+'</td>'));
+                    }
+                    else{
+                        row.append($('<td>'+rowData[k]+'</td>'));
+                    }
+                    rowDiv.append(row)
+                    row = $('<tr></tr>');
+                }
+
+                rowDiv.append($('<tr><td>----</td><td>----</td></tr>'));
+
+                var row1 = $('<tr></tr>');
+                var row2 = $('<tr></tr>');
+                // text-decoration: line-through;
+                //'font-weight', 'bold'
+                if(rowData[7] == "None"){
+                    // opponent first pick
+                    row1.append($('<td>First --></td><td>'+rowData[16]+'</td>'));
+                    row2.append($('<td>'+rowData[8]+'</td><td><-- Last</td>'));
+                }
+                else{
+                    // me first pick
+                    row1.append($('<td>'+rowData[7]+'</td><td><-- First</td>'));                    
+                    row2.append($('<td>Last --></td><td>'+rowData[17]+'</td>'));
+                }
+                rowDiv.append(row1);
+                rowDiv.append(row2); 
+                rowDiv.append($('<tr><td>Date added:</td><td>'+rowData[20]+'</td></tr>'));
+
+                
+                // var rowDiv = $('<div class="widget-content"  style="display: none; color: black; background-color: white;">' + rowData + '</div>');
+
+                myButton.append(rowDiv);
+                table.append(myButton);
+              }
+            });
+
+            return table;
+        }
+
+        $.ajax({
+            type: "GET",
+            url: "../../../data/output_s15_sl2/users/"+page+"/battles.csv",
+            success: function (data) {
+                // $('body').append(getLength(Papa.parse(data).data));
+                $('#wrapper').append(forBattles(Papa.parse(data).data));
+                // $('#mytablee2').DataTable();
+                // $("button#minimize").click(function(){
+                //     $("div#tb1").hide();
+                // })
+                $(".btn-minimize").click(function(){
+                    // $(this).toggleClass('btn-plus');
+                    $(this).find(".widget-content").slideToggle();
+                    // $(".widget-content").slideToggle();
+                });
+                // console.log(this);
+            }
+        });         
+        // <button onclick="myFunction()">Click me</button>
+
+        // <table id="tb1">
+        // $("button#minimize").click(function(){
+        //     $("div#tb1").hide();
+        // })
+
+    </script>
+
+  </body>
+
+</html>

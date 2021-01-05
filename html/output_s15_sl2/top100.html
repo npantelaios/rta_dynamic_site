@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-      <link rel="stylesheet" href="../css/html.css">
+      <link rel="stylesheet" href="../../css/html.css">
       <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
       <link rel="stylesheet" type="text/css" href="/DataTables/datatables.css"> 
       <script type="text/javascript" charset="utf8" src="/DataTables/datatables.js"></script>
@@ -10,27 +10,30 @@
 
   <body>
     <div class="mybox" style="position:absolute; left:10px; top:5px;">
-      <a href="../index.html">Home</a>
-      </div>
-      <div class="mybox" style="position:absolute; left:50px; top:5px;">
-          <a href="a_button.html">Monsters-S15-SL1</a>
-      </div>
-      <div class="mybox" style="position:absolute; left:145px; top:5px;">
-          <a href="b_button.html">Top100-S15-SL1</a>
+        <a href="../../index.html">Home</a>
+    </div>
+    <div class="mybox" style="position:absolute; left:150px; top:50px;">
+        <a href="main.html">MAIN</a>
+    </div>
+    <div class="mybox" style="position:absolute; left:200px; top:50px;">
+        <a href="monsters.html">Monsters-S15-SL2</a>
         </div>
-      <div class="mybox" style="position:absolute; right:10px; top:5px;">
-        <a href="b_button.html">Serpolita</a>
-      </div>
+    <div class="mybox" style="position:absolute; left:300px; top:50px;">
+    <a href="top100.html">Top100-S15-SL2</a>
+    </div>
+    <div class="mybox" style="position:absolute; right:10px; top:5px;">
+        <a href="users/users.html">USERS</a>
+    </div>
 
     <div id="wrapper">
-      <h1>Top 100 Players - Season 15 - Special League 1 (20* sum)</h1>
+      <h1>Top 100 Players - Season 15 - Special League 2 (Normal)</h1>
     </div> 
 
     <script>
         function arrayToTable(tableData) {
             var table = $('<table id="mytablee" class="display"><thead><tr><th><span>#</span></th><th><span>server_id</span></th><th><span>country</span></th><th><span>wizard_name</span></th><th><span>rtpvp_score</span></th><th><span>win_count</span></th><th><span>lose_count</span></th><th><span>draw_count</span></th><th><span>rank</span></th><th><span>total_battles</span></th><th><span>win-perc</span></th></tr></thead></table>');
             $(tableData).each(function (i, rowData) {
-              if (i>0 & i<=100){
+              if (i>0 & i<=tableData.length-2){
               var row = $('<tr></tr>');
                 $(rowData).each(function (j, cellData) {
                     row.append($('<td>'+cellData+'</td>'));
@@ -42,7 +45,7 @@
         }
         $.ajax({
             type: "GET",
-            url: "../data/top100.csv",
+            url: "../../data/output_s15_sl2/top100/top100.csv",
             success: function (data) {
                 $('#wrapper').append(arrayToTable(Papa.parse(data).data));
                 $('#mytablee').DataTable();
