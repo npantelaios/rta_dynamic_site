@@ -1,0 +1,27 @@
+battle_#,win_loss,p1,p2,p3,p4,p5,first,last,leader,banned,opp_p1,opp_p2,opp_p3,opp_p4,opp_p5,opp_first,opp_last,opp_leader,opp_banned,date_added,player,opponent
+0,True,Cheongpung,Barbara,Gemini,Shan,Vanessa,Cheongpung,None,Gemini,Vanessa,Okeanos,Seara,Chiwu,Giana,Leo,None,Giana,Chiwu,Leo,2021-01-10 10:12:41,DDSquirtle,TAEYE0N
+1,True,Cheongpung,Okeanos,Diana,Helena,Miho,Cheongpung,None,Cheongpung,Miho,Leo,Lucifer,Raoq,Lushen,Bastet,None,Lushen,Lucifer,Bastet,2021-01-10 10:08:09,DDSquirtle,ＪＪですか？
+2,True,Cheongpung,Barbara,Vanessa,Gemini,Juno,None,Juno,Vanessa,Juno,Okeanos,Chiwu,TianLang,Rica,Leo,Okeanos,None,Chiwu,Leo,2021-01-10 10:04:45,DDSquirtle,Nect
+3,False,Cheongpung,Vanessa,Barbara,Gemini,Okeanos,Cheongpung,None,Vanessa,Okeanos,Seara,Yeonhong,Fran,Verdehile,Leo,None,Verdehile,Seara,Leo,2021-01-10 10:01:00,DDSquirtle,Wisps嬴宇
+4,True,Cheongpung,Ethna,Diana,Juno,Vanessa,None,Juno,Cheongpung,Vanessa,Seara,Moore/WaterRYU1,Barbara,Savannah,Okeanos,Seara,None,Moore/WaterRYU1,Okeanos,2021-01-10 09:56:35,DDSquirtle,ThatAapje~
+5,True,Cheongpung,Vanessa,Triton,Tablo,Barbara,None,Tablo,Vanessa,Barbara,Okeanos,Seara,Yeonhong,Verdehile,Leo,Okeanos,None,Seara,Leo,2021-01-10 09:51:26,DDSquirtle,Duhstin
+6,False,Cheongpung,Seara,Barbara,Vanessa,Shan,Cheongpung,None,Vanessa,Shan,Okeanos,Savannah,Ethna,Rica,Moore/WaterRYU,None,Rica,Okeanos,Moore/WaterRYU,2021-01-10 08:39:20,DDSquirtle,俏皮可爱小尾巴
+7,True,Shan,Vanessa,Okeanos,Ganymede,Cheongpung,None,Ganymede,Vanessa,Cheongpung,Seara,Diana,Verdehile,Josephine,Leo,Seara,None,Seara,Leo,2021-01-10 07:23:53,DDSquirtle,Validislav
+8,False,Fran,Ganymede,Seara,Shan,Cheongpung,Cheongpung,None,Shan,Cheongpung,Molly,Elsharion,Juno,Diana,Ragdoll,None,Diana,Elsharion,Ragdoll,2021-01-10 07:17:48,DDSquirtle,Ryuji@
+9,True,Cheongpung,Barbara,Gemini,Okeanos,Vanessa,Cheongpung,None,Gemini,Vanessa,Chiwu,Nephthys,Poseidon,Bellenus,Leo,None,Leo,Chiwu,Leo,2021-01-10 07:14:54,DDSquirtle,kimjοngillest
+10,True,Cheongpung,Vanessa,Psamathe,Okeanos,Ethna,Cheongpung,None,Vanessa,Ethna,Moore/WaterRYU,Bastet,Chiwu,Lushen,Bellenus,None,Bellenus,Chiwu,Bellenus,2021-01-10 07:12:26,DDSquirtle,きらぱみん✩*
+11,True,Cheongpung,Okeanos,Vanessa,Psamathe,Barbara,None,Psamathe,Vanessa,Barbara,Chiwu,Moore/WaterRYU,Lushen,Bellenus,Bastet,Chiwu,None,Chiwu,Bastet,2021-01-10 07:10:22,DDSquirtle,きらぱみん✩*
+12,True,Cheongpung,Okeanos,Barbara,Gemini,Vanessa,Cheongpung,None,Gemini,Vanessa,Fran,Ethna,Mina,Illiana,Shimitae,None,Illiana,Fran,Shimitae,2021-01-10 07:08:05,DDSquirtle,DR*Donbosco
+13,True,Okeanos,Barbara,Seara,Gemini,Cheongpung,Cheongpung,None,Seara,Cheongpung,Fran,Ganymede,FengYan,Amelia,Leo,None,Amelia,Fran,Leo,2021-01-10 07:06:48,DDSquirtle,evanevils
+14,False,Cheongpung,Barbara,Okeanos,Gemini,Psamathe,Cheongpung,None,Gemini,Psamathe,Chiwu,Eshir,Ethna,Masha,Vanessa,None,Masha,Chiwu,Vanessa,2021-01-10 07:01:25,DDSquirtle,Taki
+15,True,Okeanos,Cheongpung,Ethna,Shan,Seara,None,Shan,Ethna,Seara,FengYan,Lulu,Leona,Juno,Leo,FengYan,None,Juno,Leo,2021-01-11 02:33:32,DDSquirtle,#ZOE
+16,False,Cheongpung,Barbara,Vanessa,Gemini,Okeanos,Cheongpung,None,Vanessa,Okeanos,Seara,Daphnis,FengYan,Verdehile,Leo,None,Verdehile,Seara,Leo,2021-01-11 02:27:32,DDSquirtle,abuchiyo
+17,False,Cheongpung,Barbara,Seara,Thrain,Juno,Cheongpung,None,Cheongpung,Juno,Fran,Okeanos,Diana,Leo,XingZhe,None,XingZhe,Fran,XingZhe,2021-01-11 02:23:37,DDSquirtle,세븐-
+18,False,Triana,Okeanos,Thrain,Miho,Cheongpung,Cheongpung,None,Thrain,Cheongpung,MoLong,Ragdoll,Harmonia,Diana,Amelia,None,Amelia,MoLong,Amelia,2021-01-11 02:18:12,DDSquirtle,[Inc™]Kyogen
+19,True,Cheongpung,Okeanos,Barbara,Gemini,Vanessa,None,Gemini,Gemini,Vanessa,Seara,Chiwu,Giana,Savannah,Hathor,Seara,None,Seara,Hathor,2021-01-11 01:58:44,DDSquirtle,G-Fam✨
+20,True,Ganymede,Shan,Cheongpung,Okeanos,Gemini,None,Okeanos,Shan,Gemini,Molly,Velajuel,Jager,Nephthys,Leo,Molly,None,Nephthys,Leo,2021-01-11 01:54:38,DDSquirtle,★忽必烈★
+21,True,Cheongpung,Barbara,Vanessa,Shan,Gemini,None,Gemini,Vanessa,Gemini,Okeanos,Seara,Savannah,Chiwu,TianLang,Okeanos,None,Chiwu,TianLang,2021-01-11 01:48:35,DDSquirtle,정현찡
+22,True,Cheongpung,Vanessa,Barbara,Gemini,Shan,Cheongpung,None,Vanessa,Shan,Okeanos,Seara,Moore/WaterRYU1,Ganymede,Verdehile,None,Verdehile,Seara,Verdehile,2021-01-10 13:04:40,DDSquirtle,LuckyTonkatsu
+23,False,Cheongpung,Okeanos,Triton,Ethna,Vanessa,None,Ethna,Ethna,Vanessa,Chiwu,Barbara,Moore/WaterRYU1,Ganymede,Seara,Seara,None,Chiwu,Seara,2021-01-10 13:00:41,DDSquirtle,LuckyTonkatsu
+24,True,Cheongpung,MoLong,Thrain,Okeanos,Icares,Cheongpung,None,MoLong,Icares,Leo,Verdehile,Abellio,XingZhe,Juno,None,Juno,XingZhe,Juno,2021-01-10 12:57:01,DDSquirtle,ぽぬめ
+25,True,Okeanos,Vanessa,Barbara,Ethna,Cheongpung,None,Ethna,Vanessa,Cheongpung,Savannah,Jeogun,Masha,Haegang,Moore/WaterRYU1,Savannah,None,Jeogun,Moore/WaterRYU1,2021-01-10 12:51:39,DDSquirtle,NakedKimchi

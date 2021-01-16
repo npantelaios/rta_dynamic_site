@@ -1,0 +1,25 @@
+battle_#,win_loss,p1,p2,p3,p4,p5,first,last,leader,banned,opp_p1,opp_p2,opp_p3,opp_p4,opp_p5,opp_first,opp_last,opp_leader,opp_banned,date_added,player,opponent
+0,False,Okeanos,Savannah,Anavel,Ganymede,TianLang,None,TianLang,Ganymede,TianLang,Moore/WaterRYU1,Psamathe,Craig/LightM.BISON1,Lushen,Bellenus,Moore/WaterRYU1,None,Psamathe,Bellenus,2021-01-09 13:22:03,PinkRoid~,ぺにまる迷走中
+1,False,Seara,Fran,Hathor,Vigor,Moore/WaterRYU1,None,Vigor,Seara,Moore/WaterRYU1,Ganymede,Chiwu,Daphnis,Juno,Okeanos,Okeanos,None,Chiwu,Okeanos,2021-01-09 13:20:22,PinkRoid~,Raigeki!
+2,True,Okeanos,Moore/WaterRYU1,Savannah,Vanessa,Ganymede,Okeanos,None,Vanessa,Ganymede,Chiwu,Seara,Vigor,Juno,Rica,None,Rica,Chiwu,Rica,2021-01-09 13:16:39,PinkRoid~,Raigeki!
+3,True,Ganymede,Fran,Moore/WaterRYU1,Verdehile,Okeanos,Okeanos,None,Moore/WaterRYU1,Okeanos,Chichi,SonZhangLao,Savannah,Masha,Chiwu,None,Masha,SonZhangLao,Chiwu,2021-01-09 13:12:05,PinkRoid~,L'est
+4,True,Savannah,Moore/WaterRYU1,Verdehile,Fran,Okeanos,Okeanos,None,Moore/WaterRYU1,Okeanos,Chichi,SonZhangLao,Seara,Molly,Leo,None,Molly,Seara,Leo,2021-01-09 13:08:54,PinkRoid~,L'est
+5,False,Vigor,TianLang,Josephine,Ganymede,Tesarion,None,Tesarion,Ganymede,Tesarion,Okeanos,Fran,Ragdoll,FengYan,Leo,Okeanos,None,Fran,Leo,2021-01-09 13:05:32,PinkRoid~,ლ((ΦωΦ))ლ
+6,True,Okeanos,Ganymede,Fran,Sian,TianLang,None,Sian,Ganymede,TianLang,Molly,Ragdoll,MeiHouWang,Vigor,Belial,Molly,None,MeiHouWang,Belial,2021-01-09 13:01:04,PinkRoid~,2LítPayAcc
+7,True,Okeanos,Moore/WaterRYU1,Verdehile,Rica,Vanessa,Okeanos,None,Moore/WaterRYU1,Vanessa,Chiwu,Cheongpung,Eludia,Poseidon,Wolyung,None,Poseidon,Chiwu,Wolyung,2021-01-09 12:58:52,PinkRoid~,LlGHT
+8,True,Seara,TianLang,Vigor,Velajuel,Fran,None,Velajuel,Seara,Fran,Okeanos,Triana,Verdehile,Ganymede,Daphnis,Okeanos,None,Ganymede,Daphnis,2021-01-09 12:56:50,PinkRoid~,DanieIKarioKa
+9,False,Vigor,Fran,Daphnis,Ganymede,TianLang,None,TianLang,Ganymede,TianLang,Woosa,Ragdoll,Artamiel,Velajuel,Okeanos,Okeanos,None,Velajuel,Okeanos,2021-01-09 12:53:35,PinkRoid~,ლ((ΦωΦ))ლ
+10,False,Fran,Savannah,Verdehile,MoLong,Okeanos,Okeanos,None,MoLong,Okeanos,Seara,Ganymede,Juno,Molly,Giana,None,Giana,Seara,Giana,2021-01-09 12:49:20,PinkRoid~,海贼༒卡罗特
+11,False,Okeanos,Fran,Ganymede,TianLang,Sian,Okeanos,None,Ganymede,Sian,Ragdoll,Molly,Vigor,Elucia,Juno,None,Elucia,Elucia,Juno,2021-01-09 12:42:33,PinkRoid~,༺RYOEI༻
+12,True,Okeanos,Ganymede,Fran,Vigor,TianLang,Okeanos,None,Ganymede,TianLang,Ragdoll,Molly,Juno,Verdehile,Elucia,None,Elucia,Juno,Elucia,2021-01-09 12:38:20,PinkRoid~,༺RYOEI༻
+13,True,Okeanos,Ganymede,Moore/WaterRYU1,Chiwu,TianLang,None,Chiwu,Moore/WaterRYU1,TianLang,Seara,Giana,Oberon,Fran,Ragdoll,Seara,None,Seara,Ragdoll,2021-01-09 12:33:03,PinkRoid~,conejojo
+14,True,Okeanos,Fran,Ganymede,Vigor,TianLang,Okeanos,None,Fran,TianLang,Seara,Ragdoll,Juno,Nephthys,Giana,None,Nephthys,Seara,Giana,2021-01-09 12:30:45,PinkRoid~,conejojo
+15,True,Okeanos,Ganymede,Moore/WaterRYU1,TianLang,Fran,Okeanos,None,Moore/WaterRYU1,Fran,Vigor,Velajuel,Antares,Diana,Rica,None,Rica,Antares,Rica,2021-01-09 13:53:41,PinkRoid~,サナトス
+16,True,Okeanos,Moore/WaterRYU1,Seara,Verdehile,Velajuel,None,Velajuel,Moore/WaterRYU1,Velajuel,Chiwu,Savannah,Molly,Beth,Bellenus,Chiwu,None,Beth,Bellenus,2021-01-09 13:49:19,PinkRoid~,이지은ツ
+17,False,Okeanos,TianLang,Moore/WaterRYU1,Chiwu,Ganymede,Okeanos,None,Moore/WaterRYU1,Ganymede,Cheongpung,Verdehile,Pater,Raoq,Juno,None,Juno,Cheongpung,Juno,2021-01-09 13:47:11,PinkRoid~,radishSW
+18,False,Fran,Moore/WaterRYU1,Hathor,Verdehile,Seara,None,Verdehile,Moore/WaterRYU1,Seara,Okeanos,Giana,Molly,Ganymede,Nephthys,Okeanos,None,Ganymede,Nephthys,2021-01-09 13:43:13,PinkRoid~,程式設計師
+19,False,Okeanos,Ganymede,Chiwu,MoLong,Vigor,Okeanos,None,Chiwu,Vigor,Fran,MeiHouWang,Juno,Diana,Seara,None,Diana,Fran,Seara,2021-01-09 13:39:02,PinkRoid~,えれま
+20,True,Okeanos,Ganymede,Moore/WaterRYU1,Savannah,Vigor,None,Vigor,Moore/WaterRYU1,Vigor,Velajuel,Josephine,Juno,MeiHouWang,Wedjat,Velajuel,None,MeiHouWang,Wedjat,2021-01-09 13:34:01,PinkRoid~,おさださん
+21,True,Okeanos,Moore/WaterRYU1,Vanessa,Triton,Savannah,Okeanos,None,Vanessa,Savannah,Seara,Barbara,Giana,Cheongpung,Verdehile,None,Verdehile,Seara,Verdehile,2021-01-09 13:32:00,PinkRoid~,[SVR]༄KEN࿇༂
+22,True,Okeanos,Ganymede,Savannah,TianLang,Chiwu,None,TianLang,Ganymede,Chiwu,Hathor,Vanessa,Ethna,Velajuel,Verdehile,Hathor,None,Vanessa,Verdehile,2021-01-09 13:29:40,PinkRoid~,Luna수지
+23,False,Moore/WaterRYU1,Okeanos,Savannah,Diana,Vanessa,Moore/WaterRYU1,None,Moore/WaterRYU1,Vanessa,Psamathe,Shimitae,Woonsa,Craig/LightM.BISON1,Lushen,None,Craig/LightM.BISON1,Psamathe,Lushen,2021-01-09 13:25:40,PinkRoid~,ぺにまる迷走中

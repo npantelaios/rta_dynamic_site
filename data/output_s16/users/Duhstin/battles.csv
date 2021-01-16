@@ -1,0 +1,16 @@
+battle_#,win_loss,p1,p2,p3,p4,p5,first,last,leader,banned,opp_p1,opp_p2,opp_p3,opp_p4,opp_p5,opp_first,opp_last,opp_leader,opp_banned,date_added,player,opponent
+0,True,Okeanos,Cheongpung,Yeonhong,Ganymede,Sian,Okeanos,None,Yeonhong,Sian,Vigor,Molly,Moore/WaterRYU1,MeiHouWang,Verdehile,None,MeiHouWang,Moore/WaterRYU1,Verdehile,2021-01-10 09:59:53,Duhstin,불꽃색게
+1,True,Okeanos,Seara,Yeonhong,Leo,Verdehile,Okeanos,None,Seara,Verdehile,Chiwu,Ganymede,Cheongpung,Vanessa,Helena,None,Helena,Ganymede,Helena,2021-01-10 09:55:54,Duhstin,Lucifer_Angelz
+2,False,Okeanos,Seara,Yeonhong,Verdehile,Leo,Okeanos,None,Seara,Leo,Cheongpung,Vanessa,Triton,Tablo,Barbara,None,Tablo,Vanessa,Barbara,2021-01-10 09:51:26,Duhstin,DDSquirtle
+3,True,Seara,Yeonhong,Masha,Triana,Tablo,None,Triana,Yeonhong,Tablo,Okeanos,Ethna,Leo,Taor,SonZhangLao,Okeanos,None,Okeanos,SonZhangLao,2021-01-10 09:47:15,Duhstin,ELDEAU
+4,True,Okeanos,Yeonhong,Masha,Cheongpung,Tablo,Okeanos,None,Yeonhong,Tablo,Seara,Giana,Elucia,Chiwu,Ganymede,None,Chiwu,Seara,Ganymede,2021-01-10 09:41:36,Duhstin,那些你冒险的梦
+5,True,Yeonhong,Vanessa,MeiHouWang,Verdehile,Cheongpung,Yeonhong,None,Vanessa,Cheongpung,Seara,Okeanos,Chiwu,Ganymede,Barbara,None,Barbara,Seara,Barbara,2021-01-10 09:37:35,Duhstin,まつ@げりらじ
+6,True,Okeanos,Seara,Yeonhong,Triana,Cheongpung,Okeanos,None,Seara,Cheongpung,Jamire,Ethna,Taor,Molly,SonZhangLao,None,Molly,Taor,SonZhangLao,2021-01-10 09:33:29,Duhstin,ELDEAU
+7,True,Seara,Leo,Verdehile,MeiHouWang,Yeonhong,None,MeiHouWang,MeiHouWang,Yeonhong,Okeanos,Chiwu,Savannah,Moore/WaterRYU1,Bastet,Okeanos,None,Chiwu,Bastet,2021-01-10 09:29:47,Duhstin,ミニマムくどう
+8,True,Seara,Yeonhong,Tablo,Elucia,Okeanos,None,Elucia,Tablo,Okeanos,Verdehile,Nicki,Gemini,Antares,Leo,Verdehile,None,Gemini,Leo,2021-01-10 09:26:47,Duhstin,RoflMаkr
+9,True,Seara,Woosa,Yeonhong,Mina,Okeanos,None,Mina,Seara,Okeanos,Verdehile,Triana,Raki,Raoq,Nicki,Verdehile,None,Raki,Nicki,2021-01-10 09:22:43,Duhstin,RoflMаkr
+10,True,Yeonhong,Elucia,Tablo,Masha,Seara,None,Masha,Tablo,Seara,Okeanos,Giana,Verdehile,ShiHou,QitianDasheng,Okeanos,None,Okeanos,QitianDasheng,2021-01-10 09:18:50,Duhstin,¥ahiko~
+11,True,Yeonhong,Elucia,Molly,Tetra,Seara,None,Tetra,Yeonhong,Seara,Okeanos,Giana,Velajuel,QitianDasheng,ShiHou,Okeanos,None,Okeanos,ShiHou,2021-01-10 09:16:31,Duhstin,¥ahiko~
+12,True,Okeanos,Seara,Yeonhong,Triana,Verdehile,Okeanos,None,Seara,Verdehile,Vanessa,Savannah,Josephine,Ethna,Juno,None,Juno,Vanessa,Juno,2021-01-10 09:11:31,Duhstin,シンシノブ
+13,True,Okeanos,Cheongpung,Triana,Tablo,Yeonhong,Okeanos,None,Okeanos,Yeonhong,Seara,Barbara,Giana,Chiwu,Savannah,None,Savannah,Seara,Savannah,2021-01-10 09:07:05,Duhstin,Kater
+14,False,Seara,Yeonhong,Leo,Verdehile,MeiHouWang,None,MeiHouWang,Seara,MeiHouWang,Okeanos,Moore/WaterRYU,Savannah,Tesarion,Fran,Okeanos,None,Moore/WaterRYU,Fran,2021-01-10 09:04:09,Duhstin,俏皮可爱小安静

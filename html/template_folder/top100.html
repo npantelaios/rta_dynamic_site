@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <link rel="stylesheet" href="../../css/html.css">
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="/DataTables/datatables.css"> 
+      <script type="text/javascript" charset="utf8" src="/DataTables/datatables.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.1.2/papaparse.js"></script>
+  </head>
+
+  <body>
+    <div class="mybox" style="position:absolute; left:10px; top:5px;">
+      <a href="../../index.html">Home</a>
+    </div>
+    <div class="mybox" style="position:absolute; left:150px; top:50px;">
+        <a href="main.html">MAIN</a>
+    </div>
+    <div class="mybox" style="position:absolute; left:200px; top:50px;">
+        <a href="monsters.html">Monsters-SXXX</a>
+        </div>
+    <div class="mybox" style="position:absolute; left:300px; top:50px;">
+    <a href="top100.html">Top100-SXXX</a>
+    </div>
+    <div class="mybox" style="position:absolute; right:10px; top:5px;">
+        <a href="users/users.html">USERS</a>
+    </div>
+
+    <div id="wrapper">
+     <h1>Top 100 Players - SEASON XXX</h1>
+    </div> 
+
+    <script>
+        function arrayToTable(tableData) {
+            var table = $('<table id="mytablee" class="display"><thead><tr><th><span>#</span></th><th><span>server_id</span></th><th><span>country</span></th><th><span>wizard_name</span></th><th><span>rtpvp_score</span></th><th><span>win_count</span></th><th><span>lose_count</span></th><th><span>draw_count</span></th><th><span>rank</span></th><th><span>total_battles</span></th><th><span>win-perc</span></th></tr></thead></table>');
+            $(tableData).each(function (i, rowData) {
+              if (i>0 & i<=tableData.length-2){
+              var row = $('<tr></tr>');
+                $(rowData).each(function (j, cellData) {
+                    row.append($('<td>'+cellData+'</td>'));
+                });
+                table.append(row);
+              }
+            });
+            return table;
+        }
+        $.ajax({
+            type: "GET",
+            url: "../../data/output_sXXX/top100/top100.csv",
+            success: function (data) {
+                $('#wrapper').append(arrayToTable(Papa.parse(data).data));
+                $('#mytablee').DataTable();
+            }
+        });
+    </script>
+
+  </body>
+
+</html>

@@ -1,0 +1,31 @@
+battle_#,win_loss,p1,p2,p3,p4,p5,first,last,leader,banned,opp_p1,opp_p2,opp_p3,opp_p4,opp_p5,opp_first,opp_last,opp_leader,opp_banned,date_added,player,opponent
+0,True,Chiwu,Cheongpung,Seara,Chris,Vigor,None,Chris,Chiwu,Vigor,Okeanos,Juno,Diana,Savannah,Molly,Okeanos,None,Juno,Molly,2021-01-10 00:34:29,UT.10,ゴギッチ!
+1,True,Seara,Okeanos,Cheongpung,Yeonhong,Moore/WaterRYU1,None,Yeonhong,Seara,Moore/WaterRYU1,Chiwu,Ganymede,Vanessa,Ethna,Hathor,Chiwu,None,Vanessa,Hathor,2021-01-10 00:29:15,UT.10,알테프사
+2,False,Seara,Ganymede,Cheongpung,Moore/WaterRYU1,Anavel,Seara,None,Seara,Anavel,Giana,Okeanos,Vanessa,Yeonhong,Rica,None,Rica,Vanessa,Rica,2021-01-10 00:26:52,UT.10,Jack-
+3,True,Okeanos,Cheongpung,Ganymede,Yeonhong,Chiwu,Okeanos,None,Yeonhong,Chiwu,Seara,Giana,Fran,Diana,Masha,None,Diana,Seara,Masha,2021-01-10 00:22:47,UT.10,Jack-
+4,True,Vanessa,Okeanos,Moore/WaterRYU1,Cheongpung,Ethna,None,Ethna,Vanessa,Ethna,Seara,Nephthys,Barbara,Vigor,Molly,Seara,None,Seara,Molly,2021-01-10 00:18:17,UT.10,すで使
+5,True,Fran,Vigor,Odin,Louise,Daphnis,None,Louise,Fran,Daphnis,Molly,Ragdoll,XingZhe,Velajuel,Okeanos,Molly,None,XingZhe,Okeanos,2021-01-10 00:16:14,UT.10,91GueTae
+6,False,Seara,Vigor,Fran,FengYan,Odin,None,FengYan,Seara,Odin,Molly,Ragdoll,XingZhe,Velajuel,Daphnis,Molly,None,XingZhe,Daphnis,2021-01-10 00:11:31,UT.10,91GueTae
+7,False,Ganymede,Okeanos,Yeonhong,Vigor,Seara,None,Vigor,Yeonhong,Seara,MoLong,Velajuel,Woosa,Antares,XingZhe,MoLong,None,Woosa,XingZhe,2021-01-10 00:08:08,UT.10,飘撇七逃狼
+8,True,Vigor,Fran,Okeanos,Daphnis,Odin,None,Daphnis,Fran,Odin,Seara,Artamiel,Amelia,Ragdoll,Molly,Molly,None,Seara,Molly,2021-01-09 02:51:53,UT.10,缺德高手、
+9,True,Okeanos,Vigor,Odin,Daphnis,Louise,Okeanos,None,Okeanos,Louise,Fran,Ragdoll,Molly,Praha,Rica,None,Rica,Praha,Rica,2021-01-09 02:43:59,UT.10,o0从麟开始0o
+10,True,Okeanos,Vanessa,Moore/WaterRYU1,Juno,Ganymede,Okeanos,None,Vanessa,Ganymede,Seara,Cheongpung,Chiwu,Bastet,Poseidon,None,Poseidon,Chiwu,Poseidon,2021-01-09 02:40:53,UT.10,`ᛒüẕ~*
+11,False,Okeanos,Cheongpung,Ganymede,Moore/WaterRYU1,Vanessa,None,Moore/WaterRYU1,Moore/WaterRYU1,Vanessa,Psamathe,Giana,Woonsa,Spectra,Seara,Seara,None,Psamathe,Seara,2021-01-09 02:38:09,UT.10,포미.
+12,True,Okeanos,Vigor,Cheongpung,Diana,Vanessa,Okeanos,None,Cheongpung,Vanessa,Seara,Fran,Barbara,Jager,XingZhe,None,XingZhe,Seara,XingZhe,2021-01-09 02:33:55,UT.10,Krom`z
+13,True,Fran,Vigor,Eladriel,Diana,Odin,None,Diana,Eladriel,Odin,Vivachel,MoLong,Icares,Harmonia,Bolverk,Vivachel,None,Vivachel,Bolverk,2021-01-09 02:29:41,UT.10,BenRevolt✓
+14,True,Okeanos,Vanessa,Ganymede,Cheongpung,Chiwu,Okeanos,None,Vanessa,Chiwu,Seara,Giana,Fran,Loren,Verdehile,None,Verdehile,Seara,Verdehile,2021-01-09 02:25:59,UT.10,༒༄Itachi༻༒
+15,True,Okeanos,Ganymede,Yeonhong,Juno,Vanessa,None,Juno,Yeonhong,Vanessa,Seara,Chiwu,Cheongpung,QitianDasheng,Leona,Seara,None,Seara,Leona,2021-01-11 01:19:14,UT.10,溅人灬香香
+16,True,Seara,Moore/WaterRYU1,Cheongpung,Yeonhong,Ganymede,None,Yeonhong,Seara,Ganymede,Okeanos,Chiwu,Barbara,Savannah,TianLang,Okeanos,None,Chiwu,TianLang,2021-01-11 01:14:09,UT.10,정현찡
+17,True,Okeanos,Cheongpung,Yeonhong,Rica,Vanessa,None,Rica,Yeonhong,Vanessa,Seara,Ganymede,Moore/WaterRYU1,Chiwu,Hathor,Seara,None,Chiwu,Hathor,2021-01-11 01:09:58,UT.10,DANG9
+18,True,Cheongpung,Fran,Elucia,Aegir,Chiwu,None,Aegir,Fran,Chiwu,Okeanos,Verdehile,Vigor,Bastet,Lushen,Okeanos,None,Okeanos,Lushen,2021-01-11 01:07:47,UT.10,ゴギッチ!
+19,True,Okeanos,Moore/WaterRYU1,Cheongpung,Antares,Rica,Okeanos,None,Moore/WaterRYU1,Rica,Chiwu,Vanessa,Ethna,Diana,Verad,None,Verad,Vanessa,Verad,2021-01-11 01:03:09,UT.10,ゴギッチ!
+20,False,Vanessa,Cheongpung,Ethna,Moore/WaterRYU1,Okeanos,Okeanos,None,Vanessa,Okeanos,Seara,Fran,Ganymede,Verdehile,Rica,None,Rica,Seara,Rica,2021-01-11 01:00:07,UT.10,IksDee
+21,True,Ganymede,Moore/WaterRYU1,Cheongpung,Vigor,Seara,None,Vigor,Moore/WaterRYU1,Seara,Fran,Savannah,Miho,Verdehile,Okeanos,Okeanos,None,Fran,Okeanos,2021-01-11 00:55:20,UT.10,INMORTALIDAD
+22,True,Okeanos,Ganymede,Cheongpung,Yeonhong,Moore/WaterRYU1,Okeanos,None,Ganymede,Moore/WaterRYU1,Hathor,Velajuel,Barbara,Savannah,Chiwu,None,Savannah,Hathor,Chiwu,2021-01-11 00:51:10,UT.10,ching26
+23,False,Seara,Ganymede,Cheongpung,Yeonhong,Velajuel,None,Velajuel,Seara,Velajuel,Okeanos,Savannah,Fran,Masha,Verdehile,Okeanos,None,Okeanos,Verdehile,2021-01-11 00:45:41,UT.10,IksDee
+24,False,Okeanos,Vigor,Daphnis,Odin,Fran,Okeanos,None,Okeanos,Fran,Ragdoll,Triana,Leona,Izaria,Sekhmet,None,Izaria,Izaria,Sekhmet,2021-01-11 00:39:40,UT.10, 레오나 
+25,True,Okeanos,Seara,Fran,Eladriel,Daphnis,Okeanos,None,Seara,Daphnis,MoLong,Akroma,Diana,Rakan,Juno,None,Juno,Akroma,Juno,2021-01-11 00:34:23,UT.10,TM궁극체
+26,False,Seara,Vigor,Okeanos,Yeonhong,Ganymede,None,Yeonhong,Seara,Ganymede,MoLong,Harmonia,Juno,Diana,Leo,MoLong,None,MoLong,Leo,2021-01-11 00:28:15,UT.10,やましっく☆ミ
+27,True,Okeanos,Seara,Ganymede,Diana,Yeonhong,Okeanos,None,Seara,Yeonhong,Fran,Elucia,Juno,Savannah,Cheongpung,None,Savannah,Fran,Cheongpung,2021-01-11 00:21:40,UT.10,hirorin”
+28,False,Seara,Okeanos,Vigor,Elucia,Diana,None,Diana,Elucia,Diana,Giana,Fran,XingZhe,Leo,Ragdoll,Giana,None,Fran,Ragdoll,2021-01-11 00:17:44,UT.10,TM느림
+29,True,Vanessa,Okeanos,Cheongpung,Moore/WaterRYU1,Yeonhong,None,Moore/WaterRYU1,Vanessa,Yeonhong,Bastet,Barbara,Daphnis,Verdehile,Seara,Seara,None,Bastet,Seara,2021-01-11 00:12:33,UT.10,欧皇蕃茄

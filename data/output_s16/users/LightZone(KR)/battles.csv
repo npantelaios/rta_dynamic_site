@@ -1,0 +1,19 @@
+battle_#,win_loss,p1,p2,p3,p4,p5,first,last,leader,banned,opp_p1,opp_p2,opp_p3,opp_p4,opp_p5,opp_first,opp_last,opp_leader,opp_banned,date_added,player,opponent
+0,True,Okeanos,Ganymede,Cheongpung,Yeonhong,Tesarion,Okeanos,None,Ganymede,Tesarion,Vigor,Molly,Juno,MeiHouWang,Verdehile,None,MeiHouWang,MeiHouWang,Verdehile,2021-01-09 04:41:04,°빛대,Monkey`man〠
+1,True,Okeanos,Cheongpung,Yeonhong,Diana,Chiwu,None,Diana,Yeonhong,Chiwu,Ganymede,Valantis,Lulu,Miho,QitianDasheng,Ganymede,None,Ganymede,QitianDasheng,2021-01-09 04:37:57,°빛대,Abel_Levi
+2,False,Okeanos,Ganymede,Cheongpung,Yeonhong,Chiwu,None,Chiwu,Yeonhong,Chiwu,Seara,Velajuel,Moore/WaterRYU,Rica,Verdehile,Seara,None,Seara,Verdehile,2021-01-09 04:33:39,°빛대,ゆー☆ミ
+3,False,Okeanos,Ganymede,Cheongpung,Juno,Chiwu,None,Juno,Juno,Chiwu,Yeonhong,QitianDasheng,Verdehile,Triton,Seara,Seara,None,Yeonhong,Seara,2021-01-09 04:31:02,°빛대,Potato_Man
+4,False,Cheongpung,Seara,Vanessa,Yeonhong,Okeanos,Okeanos,None,Vanessa,Okeanos,Hathor,Ganymede,Molly,Nephthys,Chiwu,None,Nephthys,Nephthys,Chiwu,2021-01-09 04:26:39,°빛대,소름-
+5,False,Cheongpung,Molly,XingZhe,Akroma,Rica,None,Rica,Akroma,Rica,Seara,Vigor,Verdehile,Tesarion,Okeanos,Okeanos,None,Seara,Okeanos,2021-01-09 04:20:50,°빛대,삞싥뭃
+6,True,Ganymede,Vanessa,Cheongpung,Yeonhong,Okeanos,Okeanos,None,Vanessa,Okeanos,Seara,Giana,XingZhe,Antares,Fran,None,Antares,Seara,Fran,2021-01-09 04:16:27,°빛대,Seiishizo
+7,True,Ganymede,Chiwu,Cheongpung,Yeonhong,Okeanos,Okeanos,None,Chiwu,Okeanos,Lucifer,Verdehile,Antares,TianLang,Leo,None,TianLang,Lucifer,Leo,2021-01-09 04:13:47,°빛대,ish!
+8,False,Okeanos,Cheongpung,Yeonhong,Chiwu,Ganymede,None,Chiwu,Chiwu,Ganymede,Ragdoll,Pater,Josephine,Juno,Leo,Ragdoll,None,Josephine,Leo,2021-01-09 04:10:02,°빛대,Ryuu.12
+9,False,Okeanos,Cheongpung,Chiwu,Rica,Tesarion,Okeanos,None,Chiwu,Tesarion,Lucifer,Verdehile,Antares,MoLong,Leo,None,MoLong,Lucifer,Leo,2021-01-09 04:07:05,°빛대,ish!
+10,True,Okeanos,Ganymede,Cheongpung,Vanessa,Yeonhong,Okeanos,None,Vanessa,Yeonhong,Barbara,Seara,Chiwu,Juno,Velajuel,None,Juno,Seara,Velajuel,2021-01-09 04:04:06,°빛대,来自欧洲的浩浩
+11,False,Ganymede,Vanessa,Molly,Platy,Helena,None,Platy,Vanessa,Helena,Moore/WaterRYU1,Cheongpung,Han,Barbara,Okeanos,Okeanos,None,Moore/WaterRYU1,Okeanos,2021-01-09 04:01:25,°빛대,삞싥뭃
+12,True,Okeanos,Ganymede,Seara,Yeonhong,Cheongpung,Okeanos,None,Seara,Cheongpung,Anavel,Fran,Verdehile,Bellenus,Leo,None,Bellenus,Fran,Leo,2021-01-09 03:55:42,°빛대,LkMen
+13,False,Okeanos,Ganymede,Vanessa,Yeonhong,Cheongpung,Okeanos,None,Vanessa,Cheongpung,Velajuel,Vigor,Juno,Artamiel,Seara,None,Artamiel,Velajuel,Seara,2021-01-09 02:26:25,°빛대,Michaelyan
+14,False,Cheongpung,Ganymede,Vanessa,Yeonhong,Okeanos,Okeanos,None,Vanessa,Okeanos,Seara,Giana,Diana,XingZhe,Verdehile,None,XingZhe,Seara,Verdehile,2021-01-09 02:21:04,°빛대,✿NongBenz✿
+15,True,Okeanos,Ganymede,Cheongpung,Yeonhong,Tesarion,Okeanos,None,Ganymede,Tesarion,Jager,MeiHouWang,Juno,Leona,Molly,None,Leona,MeiHouWang,Molly,2021-01-10 10:39:51,°빛대,秋风瑟
+16,True,Okeanos,Ganymede,Cheongpung,ShiHou,Vanessa,Okeanos,None,ShiHou,Vanessa,Sekhmet,Fran,Velajuel,Charlotte,Seara,None,Charlotte,Fran,Seara,2021-01-10 10:34:50,°빛대,Teri~teri
+17,True,Okeanos,Ganymede,Cheongpung,ShiHou,Vanessa,Okeanos,None,ShiHou,Vanessa,Seara,Fran,Velajuel,Juno,Barbara,None,Juno,Seara,Barbara,2021-01-10 10:31:09,°빛대,#RonaldoSW
